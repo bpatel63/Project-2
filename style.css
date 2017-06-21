@@ -1,0 +1,74 @@
+body {
+  background-image: url("floralbackground.jpg");
+  background-size: cover;
+}
+
+header {
+width: 100%;
+text-align: center;
+padding: 0px;
+}
+
+h1{
+background-color: #FFF5EE;
+font-weight: normal;
+color: black;
+font-size: 1.7em;
+letter-spacing: 0.1em;
+text-indent: 1em;
+line-height: 1.8em;
+text-align: center;
+padding: px;
+}
+
+nav ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #FFE4E1;
+width: 100%;
+}
+
+nav ul li
+{
+  float: left;
+}
+
+li a
+{
+  display: block;
+  color: solid purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active)
+{
+  background-color: #FFC0CB;
+}
+
+.active
+{
+  background-color: green;
+}
+
+div {
+clear: left;
+margin: 10px;
+}
+
+footer
+{
+  width: 102%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0.9em;
+  font-size: 0.8em;
+  text-align: center;
+  font-variant: small-caps;
+  color: purple;
+  border-top: 1px solid purple;
+}	
