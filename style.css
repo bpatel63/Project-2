@@ -1,15 +1,18 @@
-body {
+body 
+{
   background-image: url("floralbackground.jpg");
   background-size: cover;
 }
 
-header {
+header 
+{
 width: 100%;
 text-align: center;
 padding: 0px;
 }
 
-h1{
+h1
+{
 background-color: #FFF5EE;
 font-weight: normal;
 color: black;
@@ -55,7 +58,8 @@ li a:hover:not(.active)
   background-color: green;
 }
 
-div {
+div
+{
 clear: left;
 margin: 10px;
 }
