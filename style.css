@@ -1,5 +1,7 @@
 body 
 {
+  margin: 10px auto;
+  padding: 10px;
   font-family: 'Times New Roman', Times, sans-serif;
   font-weight: inherit;
   background-image: url("floralbackground.jpg");
