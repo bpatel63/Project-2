@@ -12,8 +12,7 @@ text-align: center;
 padding: 0px;
 }
 
-h1
-{
+h1{
 background-color: #FFF5EE;
 font-weight: normal;
 color: purple;
@@ -25,7 +24,7 @@ text-align: center;
 padding: 0px;
 }
 
-nav
+section nav 
 {
 clear: left;
 display: block;
@@ -33,18 +32,18 @@ width: 100%;
 margin-bottom: 30px;
 }
 
-nav ul
+section nav ul
 {
 list-style-type: none;
 margin: 0px;
 padding: 0px;
 font-size: 1em;
-overflow: hidden;
+overflow: auto;
 background-color: #FFE4E1;
 width: 100%;
 }
 
-nav ul li
+section nav ul li
 {
   float: left;
   display: block;
@@ -74,14 +73,21 @@ li a:hover:not(.active)
   background-color: pink;
 }
 
-h2
+section h2 
 {
-  font-weight: normal;
-  font-size: 1.5em;
-  color: purple;
+font-weight: normal;
+font-size: 1.5em;
+color: purple;
 }
 
-div
+section h3 
+{
+font-weight: normal;
+font-size: 1.5em;
+color: black;
+}
+
+section div 
 {
 clear: left;
 float: right;
