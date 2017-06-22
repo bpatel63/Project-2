@@ -1,12 +1,13 @@
 body 
 {
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-weight: inherit;
   background-image: url("floralbackground.jpg");
   background-size: cover;
 }
 
 header 
 {
-width: 100%;
 text-align: center;
 padding: 0px;
 }
@@ -15,20 +16,29 @@ h1
 {
 background-color: #FFF5EE;
 font-weight: normal;
-color: black;
-font-size: 1.7em;
-letter-spacing: 0.1em;
+color: purple;
+font-size: 2em;
+letter-spacing: 0em;
 text-indent: 1em;
 line-height: 1.8em;
 text-align: center;
 padding: 0px;
 }
 
+nav
+{
+clear: left;
+display: block;
+width: 100%;
+margin-bottom: 30px;
+}
+
 nav ul
 {
 list-style-type: none;
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
+font-size: 1em;
 overflow: hidden;
 background-color: #FFE4E1;
 width: 100%;
@@ -37,6 +47,12 @@ width: 100%;
 nav ul li
 {
   float: left;
+  display: block;
+  width: 33.09%;
+  text-align: center;
+  border: 1px solid purple;
+  line-height: 1.5em;
+  margin: 0.1px 0.1px 0.8px 0px;
 }
 
 li a
@@ -55,12 +71,20 @@ li a:hover:not(.active)
 
 .active
 {
-  background-color: green;
+  background-color: pink;
+}
+
+section h2
+{
+  font-weight: normal;
+  font-size: 1.5em;
+  color: purple;
 }
 
 div
 {
 clear: left;
+float: right;
 margin: 10px;
 }
 
